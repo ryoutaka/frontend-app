@@ -7,7 +7,7 @@ import gql from "graphql-tag";
 import { ApolloProvider } from "@apollo/react-hooks";
 
 const client = new ApolloClient({
-  uri: "/grahql",
+  uri: "https://backend-api-3623.herokuapp.com/grahql",
 });
 
 client
